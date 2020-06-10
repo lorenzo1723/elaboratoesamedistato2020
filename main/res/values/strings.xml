@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PrototipoProgettoEsame</string>
+
+    <!-- Dropdown list options -->
+    <string-array name="languages_array">
+        <item>Inglese</item>
+        <item>Italiano</item>
+        <item>Francese</item>
+        <item>Tedesco</item>
+        <item>Spagnolo</item>
+    </string-array>
+</resources>
