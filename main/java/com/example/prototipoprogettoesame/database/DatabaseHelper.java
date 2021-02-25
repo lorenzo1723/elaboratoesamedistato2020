@@ -79,7 +79,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
      */
     public boolean checkUser(String email, String password){
         // Colonna da ritornare
-        String[] columns = {DatabaseUtils.USER_EMAIL};
+        String[] columns = {DatabaseUtils.USER_EMAIL, DatabaseUtils.USER_PASSWORD};
 
         // Oggetto SQLiteDatabase
         SQLiteDatabase db = this.getReadableDatabase();
